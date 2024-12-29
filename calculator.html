@@ -14,25 +14,25 @@
             Web Calculator using HTML, CSS and JavaScript. </div>
         <div id="calculator-div">
         <form>
-            <input type="text" id="display" readonly>
+            <input type="text" id="display" readonly> </input>
         </form>
             <div id="button-section">
-                <button class="btn-grey" id="button-8">8</button>
-                <button class="btn-grey" id="button-9">9</button>
-                <button class="btn-grey" id="button-4">4</button>
-                <button class="btn-grey" id="button-5">5</button>
-                <button class="btn-grey" id="button-6">6</button>
-                <button class="btn-grey" id="button-1">1</button>
-                <button class="btn-grey" id="button-2">2</button>
-                <button class="btn-grey" id="button-3">3</button>
-                <button class="btn-grey" id="button-0">0</button>
-                <button class="btn-grey" id="button-dot">.</button>
-                <button class="btn-yellow" id="button-plus">+</button>
-                <button class="btn-yellow" id="button-minus">-</button>
-                <button class="btn-yellow" id="button-multiply">*</button>
-                <button class="btn-yellow" id="button-divide">/</button>
-                <button class="btn-equal" id="button-equal">=</button>
-                <button class="btn-clear" id="clear-screen">C</button>
+                <button onclick=getInput(this.textContent) class="btn-grey" id="button-8">8</button>
+                <button onclick=getInput(this.textContent) class="btn-grey" id="button-9">9</button>
+                <button onclick=getInput(this.textContent) class="btn-grey" id="button-4">4</button>
+                <button onclick=getInput(this.textContent) class="btn-grey" id="button-5">5</button>
+                <button onclick=getInput(this.textContent) class="btn-grey" id="button-6">6</button>
+                <button onclick=getInput(this.textContent) class="btn-grey" id="button-1">1</button>
+                <button onclick=getInput(this.textContent) class="btn-grey" id="button-2">2</button>
+                <button onclick=getInput(this.textContent) class="btn-grey" id="button-3">3</button>
+                <button onclick=getInput(this.textContent) class="btn-grey" id="button-0">0</button>
+                <button onclick=getInput(this.textContent) class="btn-grey" id="button-dot">.</button>
+                <button onclick=getInput(this.textContent) class="btn-yellow" id="button-plus">+</button>
+                <button onclick=getInput(this.textContent) class="btn-yellow" id="button-minus">-</button>
+                <button onclick=getInput(this.textContent) class="btn-yellow" id="button-multiply">*</button>
+                <button onclick=getInput(this.textContent) class="btn-yellow" id="button-divide">/</button>
+                <button onclick=calculate() class="btn-equal" id="button-equal">=</button>
+                <button onclick=clearDisplay() class="btn-clear" id="clear-screen">C</button>
 
             </div>
         </div>

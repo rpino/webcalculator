@@ -36,7 +36,7 @@ body {
 }
 
 .calculator {
-    width: 300px;
+    width: 500px;
     height: 800px;
     box-shadow: 4px 4px 30px rgba(0,0,0,0.2);
     border-radius: 12px;
@@ -45,14 +45,14 @@ body {
 }
 
 form input {
-    width: 100%;
+    width: 93%;
     height: 150px;
     border: none;
     border-radius: 12px;
     font-size: 2rem;
     padding: 1rem;
     color: #fff;
-    background: #000;
+    background: #000000;
     text-align: right;
     pointer-events: none;
 }
